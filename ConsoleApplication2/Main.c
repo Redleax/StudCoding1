@@ -27,6 +27,9 @@ void main() {
 		case 5:
 			Praktika_5();
 			break;
+		case 6:
+			Praktika_6();
+			break;
 		}
 
 		system("cls");

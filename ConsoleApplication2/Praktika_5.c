@@ -3,7 +3,7 @@
 #include "Praktika_5.h"
 #include "myfunc.h"
 
-#define arrayLength 100//Кол-во жлементов в массиве
+#define arrayLength 100
 #define randMin -100
 #define randMax 100
 
