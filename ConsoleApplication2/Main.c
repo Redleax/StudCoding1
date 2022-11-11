@@ -30,6 +30,9 @@ void main() {
 		case 6:
 			Praktika_6();
 			break;
+		case 7:
+			Praktika_7();
+			break;
 		}
 
 		system("cls");
