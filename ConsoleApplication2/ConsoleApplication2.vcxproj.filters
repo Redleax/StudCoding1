@@ -42,6 +42,9 @@
     <ClCompile Include="Praktika_7.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Praktika_8.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Praktika_3.h">
@@ -66,6 +69,9 @@
       <Filter>Исходные файлы</Filter>
     </ClInclude>
     <ClInclude Include="Praktika_7.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Praktika_8.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
   </ItemGroup>

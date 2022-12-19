@@ -28,6 +28,7 @@
     <ClCompile Include="Praktika_5.c" />
     <ClCompile Include="Praktika_6.c" />
     <ClCompile Include="Praktika_7.c" />
+    <ClCompile Include="Praktika_8.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="myfunc.h" />
@@ -38,6 +39,7 @@
     <ClInclude Include="Praktika_5.h" />
     <ClInclude Include="Praktika_6.h" />
     <ClInclude Include="Praktika_7.h" />
+    <ClInclude Include="Praktika_8.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
