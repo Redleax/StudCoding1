@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include "Praktika_2.h"
+#include "Praktika_02.h"
 #include "myfunc.h"
 
 void Task_2_1();

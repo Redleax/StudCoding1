@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include "Praktika_5.h"
+#include "Praktika_05.h"
 #include "myfunc.h"
 
 #define arrayLength 100

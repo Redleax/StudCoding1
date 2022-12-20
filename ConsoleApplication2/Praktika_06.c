@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <math.h>
-#include "Praktika_6.h"
+#include "Praktika_06.h"
 #include "myfunc.h"
 
 #define arrayLength 5
