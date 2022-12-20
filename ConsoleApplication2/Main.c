@@ -8,6 +8,12 @@
 #include "Praktika_7.h"
 #include "Praktika_8.h"
 #include "Praktika_9.h"
+#include "Praktika_10.h"
+#include "Praktika_11.h"
+#include "Praktika_12.h"
+#include "Praktika_13.h"
+#include "Praktika_14.h"
+#include "Praktika_15.h"
 
 void main() {
 	int PracticeNumber = -1;
@@ -42,6 +48,24 @@ void main() {
 			break;
 		case 9:
 			Praktika_9();
+			break;
+		case 10:
+			Praktika_10();
+			break;
+		case 11:
+			Praktika_11();
+			break;
+		case 12:
+			Praktika_12();
+			break;
+		case 13:
+			Praktika_13();
+			break;
+		case 14:
+			Praktika_14();
+			break;
+		case 15:
+			Praktika_15();
 			break;
 		}
 
