@@ -54,15 +54,15 @@ void Praktika_10() {
 
 void Task_10_1() {
 	srand(time(NULL));
-	int Task_1_MainArray[Task_1_n][Task_1_m] = {0};
-	int Task_1_AdditionalArray[Task_1_m] = { 0 };
+	int Task_1_MainMatrix[Task_1_n][Task_1_m] = {0};
+	int Task_1_AdditionalMatrix[Task_1_m] = { 0 };
 
 	printf("\n");
 
 	for (int i = 0; i < Task_1_n; i++) {
 		for (int j = 0; j < Task_1_m; j++) {
-			Task_1_MainArray[i][j] = rand() % (randMax - randMin + 1) + randMin;
-			printf("%3i", Task_1_MainArray[i][j]);
+			Task_1_MainMatrix[i][j] = rand() % (randMax - randMin + 1) + randMin;
+			printf("%3i", Task_1_MainMatrix[i][j]);
 		}
 		printf("\n");
 	}
@@ -70,15 +70,15 @@ void Task_10_1() {
 	printf("\n");
 
 	for (int i = 0; i < Task_1_m; i++) {
-		Task_1_AdditionalArray[i] = rand() % (randMax - randMin + 1) + randMin;
-		printf("%3i", Task_1_AdditionalArray[i]);
+		Task_1_AdditionalMatrix[i] = rand() % (randMax - randMin + 1) + randMin;
+		printf("%3i", Task_1_AdditionalMatrix[i]);
 	}
 
 	printf("\n");
 
 	for (int i = 0; i < 5; i++) {
 		for (int j = 0; j < Task_1_m; j++) {
-			Task_1_MainArray[i][j] = Task_1_AdditionalArray[j];
+			Task_1_MainMatrix[i][j] = Task_1_AdditionalMatrix[j];
 		}
 	}
 
@@ -86,7 +86,7 @@ void Task_10_1() {
 
 	for (int i = 0; i < Task_1_n; i++) {
 		for (int j = 0; j < Task_1_m; j++) {
-			printf("%3i", Task_1_MainArray[i][j]);
+			printf("%3i", Task_1_MainMatrix[i][j]);
 		}
 		printf("\n");
 	}
@@ -96,15 +96,15 @@ void Task_10_1() {
 
 void Task_10_2() {
 	srand(time(NULL));
-	int Task_2_MainArray[Task_2_n][Task_2_n] = { 0 };
+	int Task_2_MainMatrix[Task_2_n][Task_2_n] = { 0 };
 	int Product = 1, NegativesCount = 0;
 
 	printf("\n");
 
 	for (int i = 0; i < Task_2_n; i++) {
 		for (int j = 0; j < Task_2_n; j++) {
-			Task_2_MainArray[i][j] = rand() % (randMax - randMin + 1) + randMin;
-			printf("%3i", Task_2_MainArray[i][j]);
+			Task_2_MainMatrix[i][j] = rand() % (randMax - randMin + 1) + randMin;
+			printf("%3i", Task_2_MainMatrix[i][j]);
 		}
 		printf("\n");
 	}
@@ -112,8 +112,8 @@ void Task_10_2() {
 	printf("\n");
 
 	for (int i = 1; i < Task_2_n; i++) {
-		if (Task_2_MainArray[Task_2_n - i][i] < 0) {
-			Product = Product * Task_2_MainArray[Task_2_n - i][i];
+		if (Task_2_MainMatrix[Task_2_n - i][i] < 0) {
+			Product = Product * Task_2_MainMatrix[Task_2_n - i][i];
 			NegativesCount++;
 			
 			//printf("Stroke - %3i Stolbets - %3i Element - %3i\n", Task_2_n - i + 1, i + 1, Task_2_MainArray[Task_2_n - i][i]);		//Uncomment to debug
@@ -130,15 +130,15 @@ void Task_10_2() {
 
 void Task_10_3() {
 	srand(time(NULL));
-	int Task_3_MainArray[Task_3_n][Task_3_n] = { 0 };
+	int Task_3_MainMatrix[Task_3_n][Task_3_n] = { 0 };
 	int DesiredNumber, CountOfCoinsidences = 0;
 
 	printf("\n");
 
 	for (int i = 0; i < Task_3_n; i++) {
 		for (int j = 0; j < Task_3_n; j++) {
-			Task_3_MainArray[i][j] = rand() % (randMax - randMin + 1) + randMin;
-			printf("%3i", Task_3_MainArray[i][j]);
+			Task_3_MainMatrix[i][j] = rand() % (randMax - randMin + 1) + randMin;
+			printf("%3i", Task_3_MainMatrix[i][j]);
 		}
 		printf("\n");
 	}
@@ -152,7 +152,7 @@ void Task_10_3() {
 
 	for (int i = 0; i < Task_3_n - 1; i++) {
 		for (int j = 0; j < Task_3_n - i - 1; j++) {
-			if (Task_3_MainArray[i][j] == DesiredNumber) {
+			if (Task_3_MainMatrix[i][j] == DesiredNumber) {
 				CountOfCoinsidences++;
 			}
 		}
@@ -163,16 +163,16 @@ void Task_10_3() {
 
 void Task_10_4() {
 	srand(time(NULL));
-	int Task_4_XArray[Task_4_nx][Task_4_mx] = { 0 };
-	int Task_4_YArray[Task_4_ny][Task_4_my] = { 0 };
-	int Task_4_ZArray[Task_4_nx + Task_4_ny][Task_4_mx + Task_4_my] = { 0 };
+	int Task_4_XMatrix[Task_4_nx][Task_4_mx] = { 0 };
+	int Task_4_YMatrix[Task_4_ny][Task_4_my] = { 0 };
+	int Task_4_ZMatrix[Task_4_nx + Task_4_ny][Task_4_mx + Task_4_my] = { 0 };
 
 	printf("\nMatrix X:\n\n");
 
 	for (int i = 0; i < Task_4_nx; i++) {
 		for (int j = 0; j < Task_4_mx; j++) {
-			Task_4_XArray[i][j] = rand() % (randMax - randMin + 1) + randMin;
-			printf("%3i", Task_4_XArray[i][j]);
+			Task_4_XMatrix[i][j] = rand() % (randMax - randMin + 1) + randMin;
+			printf("%3i", Task_4_XMatrix[i][j]);
 		}
 		printf("\n");
 	}
@@ -181,8 +181,8 @@ void Task_10_4() {
 	
 	for (int i = 0; i < Task_4_ny; i++) {
 		for (int j = 0; j < Task_4_my; j++) {
-			Task_4_YArray[i][j] = rand() % (randMax - randMin + 1) + randMin;
-			printf("%3i", Task_4_YArray[i][j]);
+			Task_4_YMatrix[i][j] = rand() % (randMax - randMin + 1) + randMin;
+			printf("%3i", Task_4_YMatrix[i][j]);
 		}
 		printf("\n");
 	}
@@ -192,12 +192,12 @@ void Task_10_4() {
 	for (int i = 0; i < Task_4_nx + Task_4_ny; i++) {
 		if (i < Task_4_ny) {
 			for (int j = Task_4_mx; j < Task_4_mx + Task_4_my; j++) {
-				Task_4_ZArray[i][j] = Task_4_YArray[i][j - Task_4_mx];
+				Task_4_ZMatrix[i][j] = Task_4_YMatrix[i][j - Task_4_mx];
 			}
 		}
 		else {
 			for (int j = 0; j < Task_4_mx; j++) {
-				Task_4_ZArray[i][j] = Task_4_XArray[i - Task_4_ny][j];
+				Task_4_ZMatrix[i][j] = Task_4_XMatrix[i - Task_4_ny][j];
 			}
 		}
 	}
@@ -206,7 +206,7 @@ void Task_10_4() {
 
 	for (int i = 0; i < Task_4_nx + Task_4_ny; i++) {
 		for (int j = 0; j < Task_4_mx + Task_4_my; j++) {
-			printf("%3i", Task_4_ZArray[i][j]);
+			printf("%3i", Task_4_ZMatrix[i][j]);
 		}
 		printf("\n");
 	}
