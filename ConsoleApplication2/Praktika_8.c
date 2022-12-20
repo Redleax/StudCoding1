@@ -26,5 +26,5 @@ void Praktika_8() {
 }
 
 void Task_8_1() {
-
+	
 }
