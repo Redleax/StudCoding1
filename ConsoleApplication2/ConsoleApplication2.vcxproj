@@ -22,6 +22,12 @@
     <ClCompile Include="Main.c" />
     <ClCompile Include="myfunc.c" />
     <ClCompile Include="Praktika_1.c" />
+    <ClCompile Include="Praktika_10.c" />
+    <ClCompile Include="Praktika_11.c" />
+    <ClCompile Include="Praktika_12.c" />
+    <ClCompile Include="Praktika_13.c" />
+    <ClCompile Include="Praktika_14.c" />
+    <ClCompile Include="Praktika_15.c" />
     <ClCompile Include="Praktika_2.c" />
     <ClCompile Include="Praktika_3.c" />
     <ClCompile Include="Praktika_4.c" />
@@ -29,10 +35,17 @@
     <ClCompile Include="Praktika_6.c" />
     <ClCompile Include="Praktika_7.c" />
     <ClCompile Include="Praktika_8.c" />
+    <ClCompile Include="Praktika_9.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="myfunc.h" />
     <ClInclude Include="Praktika_1.h" />
+    <ClInclude Include="Praktika_10.h" />
+    <ClInclude Include="Praktika_11.h" />
+    <ClInclude Include="Praktika_12.h" />
+    <ClInclude Include="Praktika_13.h" />
+    <ClInclude Include="Praktika_14.h" />
+    <ClInclude Include="Praktika_15.h" />
     <ClInclude Include="Praktika_2.h" />
     <ClInclude Include="Praktika_3.h" />
     <ClInclude Include="Praktika_4.h" />
@@ -40,6 +53,7 @@
     <ClInclude Include="Praktika_6.h" />
     <ClInclude Include="Praktika_7.h" />
     <ClInclude Include="Praktika_8.h" />
+    <ClInclude Include="Praktika_9.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

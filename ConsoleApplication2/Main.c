@@ -4,6 +4,10 @@
 #include "Praktika_3.h"
 #include "Praktika_4.h"
 #include "Praktika_5.h"
+#include "Praktika_6.h"
+#include "Praktika_7.h"
+#include "Praktika_8.h"
+#include "Praktika_9.h"
 
 void main() {
 	int PracticeNumber = -1;
@@ -32,6 +36,12 @@ void main() {
 			break;
 		case 7:
 			Praktika_7();
+			break;
+		case 8:
+			Praktika_8();
+			break;
+		case 9:
+			Praktika_9();
 			break;
 		}
 
