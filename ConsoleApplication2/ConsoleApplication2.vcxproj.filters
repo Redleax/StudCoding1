@@ -18,34 +18,34 @@
     <ClCompile Include="Main.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Praktika_3.c">
+    <ClCompile Include="Praktika_03.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="myfunc.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Praktika_1.c">
+    <ClCompile Include="Praktika_01.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Praktika_2.c">
+    <ClCompile Include="Praktika_02.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Praktika_4.c">
+    <ClCompile Include="Praktika_04.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Praktika_5.c">
+    <ClCompile Include="Praktika_05.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Praktika_6.c">
+    <ClCompile Include="Praktika_06.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Praktika_7.c">
+    <ClCompile Include="Praktika_07.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Praktika_8.c">
+    <ClCompile Include="Praktika_08.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Praktika_9.c">
+    <ClCompile Include="Praktika_09.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="Praktika_10.c">
@@ -68,31 +68,31 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Praktika_9.h">
+    <ClInclude Include="Praktika_09.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Praktika_8.h">
+    <ClInclude Include="Praktika_08.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Praktika_7.h">
+    <ClInclude Include="Praktika_07.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Praktika_6.h">
+    <ClInclude Include="Praktika_06.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Praktika_5.h">
+    <ClInclude Include="Praktika_05.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Praktika_4.h">
+    <ClInclude Include="Praktika_04.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Praktika_3.h">
+    <ClInclude Include="Praktika_03.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Praktika_2.h">
+    <ClInclude Include="Praktika_02.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Praktika_1.h">
+    <ClInclude Include="Praktika_01.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="myfunc.h">
