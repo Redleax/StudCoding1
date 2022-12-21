@@ -15,3 +15,8 @@ char ReadChar() {
 	ch = getchar();
 	return ch;
 }
+
+void stdIN_Clear() {
+	char ch;
+	while ((getchar()) != '\n');
+}

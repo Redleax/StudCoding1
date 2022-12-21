@@ -6,8 +6,8 @@
 #include "myfunc.h"
 
 #define arrayLength 20
-#define randMin -50
-#define randMax 50
+#define randMin -10
+#define randMax 10
 
 void Task_4_1();
 
@@ -48,12 +48,15 @@ void Task_4_1() {
 				summ += number[j];
 				j++;
 			}
-			average = abs(summ / count);
 
-			if (average > maximumAverage) {
-				i1 = i;
-				i2 = i + count - 1;
-				maximumAverage = average;
+			if (count > 1) {
+				average = abs(summ / count);
+
+				if (average > maximumAverage) {
+					i1 = i;
+					i2 = i + count - 1;
+					maximumAverage = average;
+				}
 			}
 
 			i += count + 1;
